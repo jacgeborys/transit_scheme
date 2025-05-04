@@ -1,0 +1,56 @@
+# Geospatial data formats
+*.shp
+*.shx
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.gpkg
+*.gpkg-shm
+*.gpkg-wal
+*.qgs
+*.qgz
+*.tif
+*.tiff
+*.json
+*.geojson
+*.kml
+*.kmz
+*.gml
+*.xml
+*.qmd
+*.img
+*.dem
+*.hdr
+*.bil
+*.aux.xml
+*.tif.aux.xml
+
+# Cache and temporary files
+*.cache
+*.tmp
+*.json.bak
+*.bak
+
+# QGIS specific
+*.qgs~
+*.qgz~
+*_plugin
+*.gpkg-journal
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# Large data directories
+shp/
+data/
+output/
+raster/
+# Add to your .gitignore
+cache/
+.idea/
