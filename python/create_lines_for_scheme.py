@@ -19,7 +19,7 @@ PLM   = "EPSG:2180"  # Polish metric CRS
 FWD   = Transformer.from_crs(WGS84, PLM, always_xy=True).transform
 BACK  = Transformer.from_crs(PLM, WGS84, always_xy=True).transform
 
-DEFAULT_FOLDER = "D:/QGIS/transit_scheme"
+DEFAULT_FOLDER = "D:/QGIS/transit_scheme/python"
 
 # ——————————————————————————————————————————————
 # UTILITY: Simple progress bar
@@ -268,7 +268,7 @@ def main(args):
     print(f"All done in {time.time()-t0:.1f}s")
 
 if __name__ == "__main__":
-    DEFAULT_FOLDER = "D:/QGIS/transit_scheme"
+    DEFAULT_FOLDER = "D:/QGIS/transit_scheme/python"
     p = argparse.ArgumentParser(description="All-in-one tram pipeline")
     p.add_argument(
         "--input",

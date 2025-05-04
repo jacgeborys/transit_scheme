@@ -8,7 +8,7 @@ from shapely.geometry    import shape, mapping, LineString, MultiLineString
 from shapely.ops         import linemerge
 
 # Default folder for input/output
-DEFAULT_FOLDER = "D:/QGIS/transit_scheme"
+DEFAULT_FOLDER = "D:/QGIS/transit_scheme/python"
 
 def load_and_process_centerlines(input_path):
     """

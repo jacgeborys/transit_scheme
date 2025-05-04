@@ -43,7 +43,7 @@ SMOOTH_FACTOR = 1      # Smoothing iterations
 SAMPLE_DIST_M = 5.0    # Sampling distance along corridor
 MAX_JOIN_DIST_M = 350.0  # Maximum joining distance in meters
 
-DEFAULT_FOLDER = "D:/QGIS/transit_scheme"
+DEFAULT_FOLDER = "D:/QGIS/transit_scheme/python"
 
 # CRS
 WGS84 = "EPSG:4326"
